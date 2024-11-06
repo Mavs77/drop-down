@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(81, 81, 191);
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.selections {
+    display: flex;
+    flex-direction: column; 
+    width: 3.5vw;
+}
+
+.options {
+    font-size: 1rem;
+    padding: 0.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
+    display: none;
+}
+
+nav button {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
